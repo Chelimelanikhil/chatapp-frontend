@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import useChatStore from './store/useChatStore';
 import EmojiPicker from 'emoji-picker-react';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://chat-backend-iwn1.onrender.com');
 
 function Chat() {
   const {
